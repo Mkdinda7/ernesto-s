@@ -499,7 +499,7 @@ li {
 }
 
 
-.pizza-image2 {
+.chili-image2 {
     position: absolute;
     right: 0px;
     bottom: -100px;
@@ -593,7 +593,14 @@ li {
         height: 160px;
     }
 
-    
+    .chili-image2 {
+        position: absolute;
+        right: 0px;
+        bottom: -80px;
+        z-index: -10 !important;
+
+    }
+
 }
 
 
