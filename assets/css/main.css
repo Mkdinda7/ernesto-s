@@ -1002,7 +1002,6 @@ li {
 /* IMAGE */
 .faq-img {
     border-radius: 20px;
-    /* height: 520px; */
     max-height: auto !important;
     object-fit: cover;
     border: 5px solid wheat !important;
