@@ -39,9 +39,10 @@ li {
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:360px) {
     .navbar-custom .btn-book {
-        display: none !important;
+        padding: 5px 5px !important;
+        font-size: 15px !important;
     }
 }
 
