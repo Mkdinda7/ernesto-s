@@ -280,11 +280,46 @@ li {
     }
 
     .big-circle {
-        width: 320px;
-        height: 320px
+        width: 420px;
+        height: 520px;
+        border-radius: 50% 50% 48% 48%;
+        overflow: hidden;
+        border: 5px solid #b6ab8a;
+    }
+
+
+    .float1 {
+        bottom: -20px;
+        left: 145px;
+    }
+
+    .float2 {
+        top: 30px;
+        right: 105px;
     }
 }
 
+
+@media(max-width: 767px) {
+    .big-circle {
+        width: 420px;
+        height: 520px;
+        border-radius: 50% 50% 48% 48%;
+        overflow: hidden;
+        border: 5px solid #b6ab8a;
+    }
+
+
+    .float1 {
+        bottom: -20px;
+        left: 55px;
+    }
+
+    .float2 {
+        top: 30px;
+        right: 25px;
+    }
+}
 
 @media screen and (max-width:375px) {
     .float2 {
