@@ -121,6 +121,25 @@
     border: 3px solid transparent;
 }
 
+.tab-pane h3 {
+    font-family: "Italianno", cursive !important;
+    font-size: 45px !important;
+    text-decoration: none !important;
+    position: relative;
+}
+
+
+.tab-pane h3::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -5px;
+    background-color: white;
+}
+
 .nav-tabs .nav-link.active {
     background-color: transparent !important;
 }
@@ -144,6 +163,7 @@
     margin-top: 8px;
     font-weight: 600;
 }
+
 .category-tabs .active i,
 .category-tabs .active img {
     border: 3px solid #bfa67a;
