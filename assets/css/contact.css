@@ -1,11 +1,11 @@
 .contact-hero {
     position: relative;
-    background: url('your-image.jpg');
+    background: url('./../img/breadcrum.png');
     /* <-- put your image here */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    margin-top: 110px !important;
     height: 350px;
     display: flex;
     align-items: center;
@@ -73,4 +73,123 @@
     .breadcrumb-custom {
         font-size: 14px;
     }
+}
+
+
+
+
+/* =======================CONTACT SECTION ================== */
+
+/* SECTION */
+
+.contact-section {
+    padding: 80px 0;
+    background-color: #006F91 !important;
+}
+
+/* LEFT SIDE */
+
+.sub-title {
+    color: #bfa67a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 700;
+
+    background: linear-gradient(to right, #fff, #c1a87d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 15px;
+}
+
+.desc {
+    color: #b0b0b0;
+    max-width: 520px;
+    margin-bottom: 25px;
+}
+
+.info p {
+    color: #b0b0b0;
+    margin: 5px 0;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social i {
+    color: #fff;
+    border: 1px solid #bfa67a;
+    /* padding: 10px; */
+    height: 10px;
+    width: 25px !important;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social i:hover {
+    background: #bfa67a;
+}
+
+/* FORM CARD */
+
+.form-card {
+    background: #2e4eae5e;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-card label {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-card input,
+.form-card textarea {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #3a3a3a;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.form-card input::placeholder,
+.form-card textarea::placeholder {
+    color: #888;
+}
+
+.submit-btn {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:992px) {
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .left-content {
+        margin-bottom: 30px;
+    }
+
 }
