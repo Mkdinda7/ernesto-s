@@ -1,6 +1,6 @@
 .aboutUs-hero {
     position: relative;
-    background: url('./../img/breadcrum.png');
+    background: linear-gradient(#0000006c, #000000dc), url('./../img/breadcrum.png');
     /* <-- put your image here */
     background-size: cover;
     background-position: center;
@@ -11,15 +11,6 @@
     align-items: center;
     justify-content: center;
     background-color: red !important;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    background: rgba(0, 0, 0, 0.6);
 }
 
 .hero-content {
