@@ -74,3 +74,95 @@
         font-size: 14px;
     }
 }
+
+
+
+
+
+/* ===================gallery section ============= */
+
+/* SECTION */
+
+.unique-gallery {
+    padding: 70px 0;
+}
+
+/* CARD */
+
+.u-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.u-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.u-card.big img {
+    height: 320px;
+}
+
+/* DIAGONAL OVERLAY */
+
+.u-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(45deg,
+            rgba(0, 0, 0, .7),
+            rgba(0, 0, 0, .2));
+
+    display: flex;
+    align-items: flex-end;
+
+    padding: 15px;
+    opacity: 0;
+    transition: .4s;
+}
+
+.u-overlay h5 {
+    color: #fff;
+}
+
+/* HOVER */
+
+.u-card:hover img {
+    transform: scale(1.07);
+}
+
+.u-card:hover .u-overlay {
+    opacity: 1;
+}
+
+/* MODAL */
+
+.modal-content {
+    background: none;
+    border: none;
+}
+
+.carousel img {
+    border-radius: 18px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px) {
+
+    .u-card img {
+        height: 200px;
+    }
+
+    .u-card.big img {
+        height: 240px;
+    }
+
+}
