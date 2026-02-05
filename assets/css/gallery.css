@@ -80,18 +80,14 @@
 
 
 /* ===================gallery section ============= */
-
-/* SECTION */
+/* ===== GALLERY ===== */
 
 .unique-gallery {
     padding: 70px 0;
 }
 
-/* CARD */
-
 .u-card {
-    position: relative;
-    border-radius: 20px;
+    border-radius: 18px;
     overflow: hidden;
     cursor: pointer;
 }
@@ -100,60 +96,29 @@
     width: 100%;
     height: 260px;
     object-fit: cover;
-    transition: .4s;
+    transition: .3s;
 }
 
 .u-card.big img {
     height: 320px;
 }
 
-/* DIAGONAL OVERLAY */
-
-.u-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    background: linear-gradient(45deg,
-            rgba(0, 0, 0, .7),
-            rgba(0, 0, 0, .2));
-
-    display: flex;
-    align-items: flex-end;
-
-    padding: 15px;
-    opacity: 0;
-    transition: .4s;
-}
-
-.u-overlay h5 {
-    color: #fff;
-}
-
-/* HOVER */
-
 .u-card:hover img {
-    transform: scale(1.07);
+    transform: scale(1.05);
 }
 
-.u-card:hover .u-overlay {
-    opacity: 1;
-}
-
-/* MODAL */
+/* ===== MODAL ===== */
 
 .modal-content {
     background: none;
     border: none;
 }
 
-.carousel img {
-    border-radius: 18px;
+.modal img {
+    border-radius: 15px;
 }
 
-/* RESPONSIVE */
+/* ===== RESPONSIVE ===== */
 
 @media(max-width:768px) {
 
