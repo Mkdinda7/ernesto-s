@@ -86,7 +86,7 @@ li {
 .navbar-nav .nav-link {
     color: #e6e6e6;
     margin: 0 12px;
-    font-size: 20px;
+    font-size: 18px;
     transition: all .3s ease;
     position: relative;
 }
@@ -102,6 +102,7 @@ a:hover {
     text-decoration: none;
     position: relative;
     background: linear-gradient(120deg, #00ffb3 0%, #333399 100%);
+    padding: 5px 15px !important;
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: 0 100%;
