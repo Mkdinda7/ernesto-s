@@ -28,6 +28,7 @@ li {
     margin-left: 18px;
     transition: .3s;
     border: 2px solid white !important;
+    cursor: pointer;
 }
 
 .btn-book:hover {
