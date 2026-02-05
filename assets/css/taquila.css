@@ -1,6 +1,6 @@
-.Gallery-hero {
+.tequila-hero {
     position: relative;
-    background: url('./../img/breadcrum.png');
+    background: url('./../img/taquila-breadcrum.png');
     /* <-- put your image here */
     background-size: cover;
     background-position: center;
@@ -73,60 +73,4 @@
     .breadcrumb-custom {
         font-size: 14px;
     }
-}
-
-
-
-
-
-/* ===================gallery section ============= */
-
-.unique-gallery {
-    padding: 70px 0;
-}
-
-.u-card {
-    border-radius: 18px;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.u-card img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    transition: .3s;
-}
-
-.u-card.big img {
-    height: 320px;
-}
-
-.u-card:hover img {
-    transform: scale(1.05);
-}
-
-/* ===== MODAL ===== */
-
-.modal-content {
-    background: none;
-    border: none;
-}
-
-.modal img {
-    border-radius: 15px;
-}
-
-/* ===== RESPONSIVE ===== */
-
-@media(max-width:768px) {
-
-    .u-card img {
-        height: 200px;
-    }
-
-    .u-card.big img {
-        height: 240px;
-    }
-
 }
