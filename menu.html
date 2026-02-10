@@ -1,1260 +1,2287 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Breadcrumb</title>
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-
-    <!-- link custom css -->
-    <link rel="stylesheet" href="./assets/css/menuSection.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-
-<body>
-
-    <!--================== HEADER SECTION ==============-->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-        <div class="container-fluid">
-
-            <!-- LOGO -->
-            <a class="navbar-brand brand-area" href="./index.html">
-                <img src="./assets/img/logo.png" alt="nav-logo">
-            </a>
-
-            <!-- TOGGLE -->
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- MENU -->
-            <div class="collapse navbar-collapse" id="nav">
-
-                <ul class="navbar-nav mx-auto">
-                    <li><a class="nav-link" href="./index.html">Home</a></li>
-                    <li><a class="nav-link" href="./about.html">About Us</a></li>
-                    <li><a class="nav-link active" href="./menu.html">Menu</a></li>
-                    <li><a class="nav-link" href="./tequila.html">Tequila</a></li>
-                    <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
-                    <li><a class="nav-link " href="./contact.html">Contact</a></li>
-                </ul>
-
-                <!-- Right Side -->
-                <div class="d-flex align-items-center social-area">
-
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-tiktok"></i></a>
-
-                    <a href="#" class="btn btn-book">
-                        Book A Table →
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-    </nav>
-
-
-    <main>
-        <section class="menuSection-hero">
-            <div class="overlay"></div>
-
-            <div class="container text-center hero-content">
-                <h1>Our Menu</h1>
-
-                <div class="breadcrumb-custom">
-                    <a href="./index.html">Home</a> /
-                    <span>menu</span>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="menu-section">
-
-            <div class="container text-center">
-
-                <div class="sub">
-                    • TASTE THE BEST THAT SURPRISE YOU
-                </div>
-
-                <h2 class="title">
-                    OUR SPECIAL MENU
-                </h2>
-
-                <p class="desc">
-                    Enjoy the unique dishes from the basilico restaurant that only our restaurant has.
-                    Fusce malesuada, lorem vitae euismod lobortis.
-                </p>
-
-                <!--============== CATEGORY TABS ===============-->
-
-                <ul class="nav nav-tabs category-tabs justify-content-center" id="menuTab">
-
-                    <li class="nav-item">
-                        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#all">
-                            <img src="./assets/img/faq-img.png" alt="">
-                            <p>All</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#starters">
-                            <img src="./assets/img/menuarea/special-menu-img-1.jpg">
-                            <p>Starters</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#veg">
-                            <img src="./assets/img/menuarea/special-menu-img-2.jpg">
-                            <p>Vegetables</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sea">
-                            <img src="./assets/img/menuarea/special-menu-img-3.jpg">
-                            <p>Seafood</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#dessert">
-                            <img src="./assets/img/menuarea/special-menu-img-4.jpg">
-                            <p>Desserts</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#drink">
-                            <img src="./assets/img/menuarea/special-menu-img-5.jpg">
-                            <p>Beverages</p>
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#salad">
-                            <img src="./assets/img/menuarea/special-menu-img-6.jpg">
-                            <p>Salads & Soups</p>
-                        </button>
-                    </li>
-
-                </ul>
-
-            </div>
-        </section>
-
-        <!--===================== MENU LIST =====================-->
-
-        <section class="menu-list">
-
-            <div class="container">
-
-                <div class="tab-content">
-
-                    <!--================= All Menu Item ============-->
-
-                    <div class="tab-pane fade show active" id="all">
-
-                        <h3 class="fs-2 text-center text-white my-5 text-decoration-underline">Starters Menu Item</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Vegetable Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Seafood Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Desserts Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Beverages Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Salads & Soup Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!--================= STARTERS ============-->
-
-                    <div class="tab-pane fade show" id="starters">
-                        <h3 class="fs-2 text-center text-white my-5 text-decoration-underline">Starters Menu Item</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/starters/starters-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--================== VEGETABLE TAB =================-->
-
-                    <div class="tab-pane fade" id="veg">
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Vegetable Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/vegetables/vegetables-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--===================== SEAFOOD TAB ===================-->
-
-                    <div class="tab-pane fade" id="sea">
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Seafood Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/seafood/seafood-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--===================== DESERTS TAB ===================-->
-
-                    <div class="tab-pane fade" id="dessert">
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Desserts Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/desserts/desserts-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--===================== BEVERAGES TAB ===================-->
-
-                    <div class="tab-pane fade" id="drink">
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Beverages Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/beverages/beverages-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--===================== SALAD TAB ===================-->
-
-                    <div class="tab-pane fade" id="salad">
-                        <h3 class="text-white text-center my-5 text-decoration-underline">Salads & Soup Menu Here</h3>
-                        <div class="row">
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-1.png">
-
-                                <div>
-                                    <h5>
-                                        SPRING ROLLS
-                                        <span>$16.00</span>
-                                    </h5>
-
-                                    <p>Crispy rolls filled with vegetables, served with dipping sauce.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-2.png">
-
-                                <div>
-                                    <h5>
-                                        ALOO TIKKI
-                                        <span>$12.00</span>
-                                    </h5>
-
-                                    <p>Golden potato patties served with chutney.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-3.png">
-
-                                <div>
-                                    <h5>
-                                        PANEER TIKKA
-                                        <span>$26.00</span>
-                                    </h5>
-
-                                    <p>Grilled paneer cubes, spiced to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-4.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-5.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12 menu-item">
-                                <img src="./assets/img/menuarea/salads/salads-img-6.png">
-
-                                <div>
-                                    <h5>
-                                        HARA KEBAB
-                                        <span>$20.00</span>
-                                    </h5>
-
-                                    <p>Green vegetable kebabs, grilled to perfection.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
-    <!--=================== footer section ===================-->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row gy-4">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Breadcrumb</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+        <!-- link custom css -->
+        <link rel="stylesheet" href="./assets/css/menuSection.css">
+        <link rel="stylesheet" href="./assets/css/main.css">
+    </head>
+
+    <body>
+
+        <!--================== HEADER SECTION ==============-->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container-fluid">
 
                 <!-- LOGO -->
-                <div class="col-lg-3">
-                    <div class="footer-logo">
-                        <img src="./assets/img/logo.png" alt="logo">
-                    </div>
-                </div>
+                <a class="navbar-brand brand-area" href="./index.html">
+                    <img src="./assets/img/logo.png" alt="nav-logo">
+                </a>
 
+                <!-- TOGGLE -->
+                <button class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <!-- SOCIAL -->
-                <div class="col-lg-3">
-                    <div class="footer-title">
-                        REDES SOCIALES / SOCIAL MEDIA
-                    </div>
+                <!-- MENU -->
+                <div class="collapse navbar-collapse" id="nav">
 
-                    <div class="social-box d-flex">
+                    <ul class="navbar-nav mx-auto">
+                        <li><a class="nav-link"
+                                href="./index.html">Home</a></li>
+                        <li><a class="nav-link" href="./about.html">About
+                                Us</a></li>
+                        <li><a class="nav-link active"
+                                href="./menu.html">Menu</a></li>
+                        <li><a class="nav-link"
+                                href="./tequila.html">Tequila</a></li>
+                        <li><a class="nav-link"
+                                href="./gallery.html">Gallery</a></li>
+                        <li><a class="nav-link "
+                                href="./contact.html">Contact</a></li>
+                    </ul>
+
+                    <!-- Right Side -->
+                    <div class="d-flex align-items-center social-area">
+
                         <a href="#"><i class="bi bi-facebook"></i></a>
                         <a href="#"><i class="bi bi-instagram"></i></a>
                         <a href="#"><i class="bi bi-tiktok"></i></a>
+
+                        <a href="#" class="btn btn-book">
+                            Book A Table →
+                        </a>
+
                     </div>
 
-                    <div class="footer-title mt-4">
-                        ORDENA AHORA / ORDER NOW
-                    </div>
-
-                    <div class="order-apps">
-                        <img src="ubereats.png">
-                        <img src="grubhub.png">
-                        <img src="doordash.png">
-                        <img src="postmates.png">
-                    </div>
                 </div>
-
-
-                <!-- CONTACT -->
-                <div class="col-lg-3">
-                    <div class="footer-title">CONTACT</div>
-
-                    <p>Email</p>
-                    <p>info@elcompadrerestaurante.com</p>
-
-                    <p class="mt-3">Location / Dirección</p>
-                    <p>
-                        8440 Sunland Blvd,<br>
-                        Sun Valley, CA 91352
-                    </p>
-                </div>
-
-
-                <!-- CALL -->
-                <div class="col-lg-3">
-                    <div class="footer-title">
-                        CALL US / LLÁMENOS
-                    </div>
-
-                    <div class="call">
-                        (818) 760-1095
-                    </div>
-                </div>
-
 
             </div>
-        </div>
-    </footer>
+        </nav>
 
+        <main>
+            <section class="menuSection-hero">
+                <div class="overlay"></div>
 
+                <div class="container text-center hero-content">
+                    <h1>Our Menu</h1>
 
-    <!-- bootstrap js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+                    <div class="breadcrumb-custom">
+                        <a href="./index.html">Home</a> /
+                        <span>menu</span>
+                    </div>
+                </div>
+            </section>
 
-</html>
+            <section class="menu-section">
+
+                <div class="container text-center">
+
+                    <div class="sub">
+                        • TASTE THE BEST THAT SURPRISE YOU
+                    </div>
+
+                    <h2 class="title">
+                        OUR SPECIAL MENU
+                    </h2>
+
+                    <p class="desc">
+                        Enjoy the unique dishes from the basilico restaurant
+                        that only our restaurant has.
+                        Fusce malesuada, lorem vitae euismod lobortis.
+                    </p>
+
+                    <!--============== CATEGORY TABS ===============-->
+
+                    <ul
+                        class="nav nav-tabs category-tabs justify-content-center"
+                        id="menuTab">
+
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab"
+                                data-bs-target="#all">
+                                <img src="./assets/img/faq-img.png" alt>
+                                <p>All</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#starters">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-1.jpg">
+                                <p>Starters</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#veg">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-2.jpg">
+                                <p>Vegetables</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#sea">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-3.jpg">
+                                <p>Seafood</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#dessert">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-4.jpg">
+                                <p>Desserts</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#drink">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-5.jpg">
+                                <p>Beverages</p>
+                            </button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab"
+                                data-bs-target="#salad">
+                                <img
+                                    src="./assets/img/menuarea/special-menu-img-6.jpg">
+                                <p>Salads & Soups</p>
+                            </button>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!--===================== MENU LIST =====================-->
+
+            <section class="menu-list">
+
+                <div class="container">
+
+                    <div class="tab-content">
+
+                        <!--================= All Menu Item ============-->
+
+                        <div class="tab-pane fade show active" id="all">
+
+                            <h3
+                                class="fs-2 text-center text-white my-5 text-decoration-underline">HOUSE
+                                SPECIALS</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones a la Diabla
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Shrimp sauteed with hot Mexican
+                                            Sauce</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones Empanizados
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Breaded Shrimp</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones Rancheros
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Camarones en salsa de tomate, cebolla
+                                            y pimiento Shrimp Rancha Style
+                                            Stautees with onion, tomato and
+                                            pimiento sauce</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones al Mojo de Ajo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Mexican-Style Garlic Shrimp</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-5.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones al estilo "El Compadre"
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Camarones en salsa especial de
+                                            cebolla y tomate con queso rayado
+                                            Shrimp in a special tomato and onion
+                                            sauce, baked with grated cheese</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones y Pulpo al Ajillo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Shrimp, Octopus and in a garlic
+                                            sauce</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones Costa Azul
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Camarones rellenos de queso envueltos
+                                            en tocino</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones al Ajillo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Shrimp with garlic sauce and ajillo
+                                            chile</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pulpo al mojo de ajo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Octopus in garlic sauce</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Langostino al mojo de ajo o a la
+                                            plancha
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Octopus in garlic sauce</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">Fish</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Filete a la Diabla
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Fish fillet sauteed in a hot Mexican
+                                            sauce</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Filete de Pescado
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Foñete a La Plancha, empanizado al
+                                            Mojo de Ajo
+                                            Fish fillet grilled breaded or in
+                                            garlic and butter sauce</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Mojarra Frita
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Frito al mojo de ajo
+                                            Whole fish fried or in garlic
+                                            sauce.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Filete Relleno al Vapor
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Relleno con camarón, pulpo y abulon.
+                                            Stuffed steam fish with shrimp,
+                                            octopus and abalone.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-5.png">
+
+                                    <div>
+                                        <h5>
+                                            Pescado Sarandeado (Pescado
+                                            Barubindi)
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Grilled Fish served with salad and
+                                            rice</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">SOUP/CALDOS</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Pescado
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Fish Soup</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarón
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Shrimp Stew</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Costa Brava
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Fish & Shrimp Soup</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Caldo de Jaiva con Camarón
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Crab & Shrimp soup</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/starters/starters-img-5.png">
+
+                                    <div>
+                                        <h5>
+                                            7 Mares
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Seven sea stew seafood
+                                            combination</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">PLATILLOS
+                                MEXICANOS</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Carne Asada
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Crispy rolls filled with vegetables,
+                                            served with dipping sauce.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Carne a la Mexicana
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Golden potato patties served with
+                                            chutney.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Costillas de puerco a la diabla
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Grilled paneer cubes, spiced to
+                                            perfection.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Carnitas
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Green vegetable kebabs, grilled to
+                                            perfection.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-5.png">
+
+                                    <div>
+                                        <h5>
+                                            Carne en su Jugo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Green vegetable kebabs, grilled to
+                                            perfection.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Carne Asada a la Tmapiqueña
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pollo en Mole
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pollo Ranchero
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pollo a la Plancha
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pollo a la Tampiqueña
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Enchiladas de Queso
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Enchiladas de Pollo con Mole
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Enchiladas de Pollo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Chile Relleno (Combo)
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Flautas de Pollo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Flautas de Res
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Flautas de Res
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Pozole
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Caldo de Res
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Flautas de Res
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Caldo de Pollo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Servido con una enchilada de queso y
+                                            3 camarones al mojo de ajo</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Molcajete Chico y Grande
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>(Cielo, Mar y Tierra) Shrimp chicken
+                                            and beef.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Molcajete de Mariscos
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Filete de pescado, camarón grande y
+                                            camarón chico, abulon, pulpo,
+                                            cebollitas mexicanadas, chile
+                                            toreado, nopales.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">COCTELES
+                                / COCKTAIL</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarón
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Mexican style shrimp cocktail</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Abulon
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Abalone cocktail</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Pulpo
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Octopus cocktail</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Campechana
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Camarón, abulón y pulpo Mixed
+                                            cocktail
+                                            with shrimp abalone and octopus</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-5.png">
+
+                                    <div>
+                                        <h5>
+                                            Ostiones
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Oysters cocktail</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-6.png">
+
+                                    <div>
+                                        <h5>
+                                            Camarones Aguachile
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Shrimp marinated in lemon juice and
+                                            onions</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">CEVICHE</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Tostada de Ceviche de Pescado
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Fish ceviche</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Tostada de Ceviche de Camarón cocido
+                                            de limón (1 Und.)
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Shrimp ceviche marinated in lemon</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Tostada de Ceviche de Camarón cocido
+                                            en agua (1 Und.)
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Shrimp ceviche cocido en agua</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Tostada de Ceviche Mixto (1 Und.)
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Mixed ceviche (shrimp, fish, octopus,
+                                            crab)</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">SIDE
+                                ORDERS</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Frijoles o Arroz
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Fish ceviche</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Guacamole
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Shrimp ceviche marinated in lemon</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Tortillas (3 Unds)
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Shrimp ceviche cocido en agua</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Queso
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Mixed ceviche (shrimp, fish, octopus,
+                                            crab)</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Crema
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Mixed ceviche (shrimp, fish, octopus,
+                                            crab)</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">fajitas</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Fajitas Mixtas
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Pollo, carne, camarón, Servido con
+                                            arroz frijoles y aguacate
+                                            Mixed Fajitas, chicken, beef and
+                                            shrimp, served with rice, beans and
+                                            avocado</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Fajitas de Camarón
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Shrimp Fajitas</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Fajitas de Carne
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Beef Fajitas</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Fajitas de Pollo
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Chicken Fajitas</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">APERITIVOS
+                                / APPETIZERS</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            Ostiones a la Rockefeller
+                                            <span>$16.00</span>
+                                        </h5>
+
+                                        <p>Ostiones horneados con espinaca,
+                                            cebolla, tomate y queso
+                                            Oysters baked with cheese, spinach,
+                                            onions and tomatoes</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            Ostiones al Mojo de Ajo
+                                            <span>$12.00</span>
+                                        </h5>
+
+                                        <p>Oysters cooked with garlic and butter
+                                            sauce</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            Ostiones al Natural
+                                            <span>$26.00</span>
+                                        </h5>
+
+                                        <p>Oysters on their shells</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            Ensaladas
+                                            <span>$20.00</span>
+                                        </h5>
+
+                                        <p>Chicken Fajitas</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">beverage
+                                / bebidas</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            CLAMATO
+                                            <span>$16.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            COCA MEXICANA
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            AGUAS FRESCAS
+                                            <span>$26.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            CAFÉ
+                                            <span>$20.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">PARRILLADAS
+                                / EL COMPADRE</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            GRILL MIX SEAFOOD COMBO
+                                            <span>$16.00</span>
+                                        </h5>
+                                        <p>Served on an open flamed grill, (1)
+                                            1/2 Langosta Mediana, 2 langostinos,
+                                            6 camarones al Mojo de Ajo, 1 Filete
+                                            de Pescado a la Plancha, Callo de
+                                            Hacha, Pulpo, Arroz y Ensalada
+                                            1 Half Lobster, 2 Crawfish, 6
+                                            Shrimp, 1 Fillet Fish, Squid,
+                                            Octopus, Rice, Soup or Salad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            GRILL MIX SEAFOOD COMBO
+                                            <span>$12.00</span>
+                                        </h5>
+                                        <p>Served on an open flamed grill, (2)
+                                            1/2 Langosta Medianas, 4
+                                            langostinos, 8 camarones al Mojo de
+                                            Ajo, 2 Filetes de Pescado a la
+                                            Plancha, Callo de Hacha, Pulpo,
+                                            Arroz y Ensalada
+                                            2 Half Lobsters, 3 Crawfish, 8
+                                            Shrimp, 2 Fillet Fish, Squid,
+                                            Octopus, Rice, Soup or Salad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            GRILL MIX SEAFOOD COMBO
+                                            <span>$26.00</span>
+                                        </h5>
+                                        <p>Served on an open flamed grill, (3)
+                                            1/2 Langosta Medianas, 6
+                                            langostinos, 10 camarones al Mojo de
+                                            Ajo, 3 Filetes de Pescado a la
+                                            Plancha, Callo de Hacha, Pulpo,
+                                            Arroz y Ensalada
+                                            3 Half Lobsters, 6 Crawfish, 10
+                                            Shrimp, 3 Fillet Fish, Squid,
+                                            Octopus, Rice, Soup or Salad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            LANGOSTA RELLENA
+                                            <span>$20.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            LANGOSTA AL MOJO DE AJO
+                                            <span>$20.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            MARISCADA
+                                            <span>$20.00</span>
+                                        </h5>
+                                        <p>Para 1 persona / Seafood Appetizer
+                                            for 1</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                    <div>
+                                        <h5>
+                                            `MARISCADAS
+                                            <span>$20.00</span>
+                                        </h5>
+                                        <p>Para 2 personas / Seafood Combo for
+                                            2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">KIDS MENU ( FOR CHILDREN UNDER 12 )</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            3 CAMARONES EMPANIZADOS
+                                            3 BREADED SHRIMP
+                                            <span>$16.00</span>
+                                        </h5>
+                                        <P>Served with rice and fries</P>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            CARNE ASADA O PECHUGA DE POLLO
+                                            STEAK OR CHICKEN BREAST
+                                            <span>$12.00</span>
+                                        </h5>
+                                        <P>Served with rice and fries</P>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <h3
+                                class="text-white text-center my-5 text-decoration-underline">beers / cervezas</h3>
+                            <div class="row">
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                    <div>
+                                        <h5>
+                                            CORONA
+                                            <span>$16.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            MODELO ESPECIAL, SOL
+                                            <span>$12.00</span>
+                                        </h5>
+                                        <P>Served with rice and fries</P>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            PACIFICO
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            BUDLIGHT
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            NEGRA MODELO
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                 <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            HEINEKEN
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                  <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            MARGARITAS
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            PIÑA COLADA
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                            MICHELADA
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                            MICHELADA "EL COMPADRE"
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                           MICHELADA CEVICHERA
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                    <div>
+                                        <h5>
+                                          CORONADITA
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-12 menu-item">
+                                    <img
+                                        src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                    <div>
+                                        <h5>
+                                         WINE
+                                            <span>$12.00</span>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                            <!--================= STARTERS ============-->
+
+                            <div class="tab-pane fade show" id="starters">
+                                <h3
+                                    class="fs-2 text-center text-white my-5 text-decoration-underline">Starters
+                                    Menu Item</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/starters/starters-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--================== VEGETABLE TAB =================-->
+
+                            <div class="tab-pane fade" id="veg">
+                                <h3
+                                    class="text-white text-center my-5 text-decoration-underline">Vegetable
+                                    Menu Here</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/vegetables/vegetables-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===================== SEAFOOD TAB ===================-->
+
+                            <div class="tab-pane fade" id="sea">
+                                <h3
+                                    class="text-white text-center my-5 text-decoration-underline">Seafood
+                                    Menu Here</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/seafood/seafood-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===================== DESERTS TAB ===================-->
+
+                            <div class="tab-pane fade" id="dessert">
+                                <h3
+                                    class="text-white text-center my-5 text-decoration-underline">Desserts
+                                    Menu Here</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/desserts/desserts-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===================== BEVERAGES TAB ===================-->
+
+                            <div class="tab-pane fade" id="drink">
+                                <h3
+                                    class="text-white text-center my-5 text-decoration-underline">Beverages
+                                    Menu Here</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/beverages/beverages-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===================== SALAD TAB ===================-->
+
+                            <div class="tab-pane fade" id="salad">
+                                <h3
+                                    class="text-white text-center my-5 text-decoration-underline">Salads
+                                    & Soup Menu Here</h3>
+                                <div class="row">
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-1.png">
+
+                                        <div>
+                                            <h5>
+                                                SPRING ROLLS
+                                                <span>$16.00</span>
+                                            </h5>
+
+                                            <p>Crispy rolls filled with
+                                                vegetables, served with dipping
+                                                sauce.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-2.png">
+
+                                        <div>
+                                            <h5>
+                                                ALOO TIKKI
+                                                <span>$12.00</span>
+                                            </h5>
+
+                                            <p>Golden potato patties served with
+                                                chutney.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-3.png">
+
+                                        <div>
+                                            <h5>
+                                                PANEER TIKKA
+                                                <span>$26.00</span>
+                                            </h5>
+
+                                            <p>Grilled paneer cubes, spiced to
+                                                perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-4.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-5.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+
+                                    <div
+                                        class="col-lg-4 col-md-6 col-12 menu-item">
+                                        <img
+                                            src="./assets/img/menuarea/salads/salads-img-6.png">
+
+                                        <div>
+                                            <h5>
+                                                HARA KEBAB
+                                                <span>$20.00</span>
+                                            </h5>
+
+                                            <p>Green vegetable kebabs, grilled
+                                                to perfection.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!--=================== footer section ===================-->
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row gy-4">
+
+                        <!-- LOGO -->
+                        <div class="col-lg-3">
+                            <div class="footer-logo">
+                                <img src="./assets/img/logo.png" alt="logo">
+                            </div>
+                        </div>
+
+                        <!-- SOCIAL -->
+                        <div class="col-lg-3">
+                            <div class="footer-title">
+                                REDES SOCIALES / SOCIAL MEDIA
+                            </div>
+
+                            <div class="social-box d-flex">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-tiktok"></i></a>
+                            </div>
+
+                            <div class="footer-title mt-4">
+                                ORDENA AHORA / ORDER NOW
+                            </div>
+
+                            <div class="order-apps">
+                                <img src="ubereats.png">
+                                <img src="grubhub.png">
+                                <img src="doordash.png">
+                                <img src="postmates.png">
+                            </div>
+                        </div>
+
+                        <!-- CONTACT -->
+                        <div class="col-lg-3">
+                            <div class="footer-title">CONTACT</div>
+
+                            <p>Email</p>
+                            <p>info@elcompadrerestaurante.com</p>
+
+                            <p class="mt-3">Location / Dirección</p>
+                            <p>
+                                8440 Sunland Blvd,<br>
+                                Sun Valley, CA 91352
+                            </p>
+                        </div>
+
+                        <!-- CALL -->
+                        <div class="col-lg-3">
+                            <div class="footer-title">
+                                CALL US / LLÁMENOS
+                            </div>
+
+                            <div class="call">
+                                (818) 760-1095
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+            <!-- bootstrap js link -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        </body>
+
+    </html>
