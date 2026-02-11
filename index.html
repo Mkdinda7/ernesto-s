@@ -1,1169 +1,1027 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant Navbar</title>
 
     <!-- link to favicon -->
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.png"
+      type="image/x-icon"
+    />
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
 
     <!-- link swiper css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!-- custom link css -->
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
 
-
-</head>
-
-<body>
-
+  <body>
     <!--================== HEADER SECTION ==============-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-        <div class="container-fluid">
+      <div class="container-fluid">
+        <!-- LOGO -->
+        <a class="navbar-brand brand-area" href="./index.html">
+          <img src="./assets/img/logo.png" alt="nav-logo" />
+        </a>
 
-            <!-- LOGO -->
-            <a class="navbar-brand brand-area" href="./index.html">
-                <img src="./assets/img/logo.png" alt="nav-logo">
-            </a>
+        <!-- TOGGLE -->
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- TOGGLE -->
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav mx-auto">
+            <li><a class="nav-link active" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./about.html">About Us</a></li>
+            <li><a class="nav-link" href="./menu.html">Menu</a></li>
+            <li><a class="nav-link" href="./tequila.html">Tequila</a></li>
+            <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
+            <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
 
-            <!-- MENU -->
-            <div class="collapse navbar-collapse" id="nav">
+          <!-- Right Side -->
+          <div class="d-flex align-items-center social-area">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-tiktok"></i></a>
 
-                <ul class="navbar-nav mx-auto">
-                    <li><a class="nav-link active" href="./index.html">Home</a></li>
-                    <li><a class="nav-link" href="./about.html">About Us</a></li>
-                    <li><a class="nav-link" href="./menu.html">Menu</a></li>
-                    <li><a class="nav-link " href="./tequila.html">Tequila</a></li>
-                    <li><a class="nav-link" href="./gallery.html">Gallery</a></li>
-                    <li><a class="nav-link" href="./contact.html">Contact</a></li>
-                </ul>
-
-                <!-- Right Side -->
-                <div class="d-flex align-items-center social-area">
-
-                    <a href="#"><i class="bi bi-facebook"></i></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-tiktok"></i></a>
-
-                    <a href="#" class="btn btn-book">
-                        Book A Table →
-                    </a>
-
-                </div>
-
-            </div>
-
+            <a href="#" class="btn btn-book"> Book A Table → </a>
+          </div>
         </div>
+      </div>
     </nav>
 
-
     <main>
-
-        <!--================== HERO SECTION =================-->
-
-        <section class="hero">
-
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <!-- LEFT TEXT -->
-                    <div class="col-lg-6">
-                        <div class="hero-sub">ART OF FINE DINING</div>
-
-                        <h1 class="hero-title">
-                            DINING REDEFINED <br>
-                            WITH <span>EVERY BITE</span>
-                        </h1>
-
-                        <p class="hero-text">
-                            Immerse yourself in a dining experience like no other,
-                            where every dish is a masterpiece of flavor, crafted
-                            with care and precision from the freshest ingredients.
-                        </p>
-
-                        <a href="#" class="btn btn-main">Book A Table →</a>
-                        <a href="#" class="btn btn-outline">Explore Now</a>
-                    </div>
-
-
-                    <!-- RIGHT IMAGE -->
-                    <div class="col-lg-6 mt-5 mt-lg-0">
-
-                        <div class="circle-wrapper">
-
-                            <div class="big-circle">
-                                <img src="./assets/img/hero-img.jpg">
-                            </div>
-
-                            <div class="float float1">
-                                <img src="./assets/img/hero-circle1.jpg">
-                            </div>
-
-                            <div class="float float2">
-                                <img src="./assets/img/hero-circle2.jpg">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <!--=================ABOUT US SECTION ====================-->
-
-        <section class="about">
-            <div class="container">
-                <div class="row align-items-center gy-5">
-
-                    <!-- LEFT -->
-                    <div class="col-lg-6">
-                        <div class="position-relative">
-
-                            <div class="circle-img">
-                                <img src="./assets/img/about-us-image.JPG">
-                            </div>
-
-                            <div class="exp-badge text-white">
-                                <i class="bi bi-star"></i>
-                                <h6 class="mt-2">30+ years of experience</h6>
-                            </div>
-
-                            <div class="chef">
-                                <img src="./assets/img/aboutUs-img.png" class="img-fluid">
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- RIGHT -->
-                    <div class="col-lg-6">
-
-                        <div class="sub">• ABOUT US</div>
-
-                        <h2 class="title mt-2">
-                            OUR COMMITMENT TO <br>
-                            AUTHENTICITY & <span>EXCELLENCE</span>
-                        </h2>
-
-                        <p class="text-white mt-3">
-                            Every dish we create is a celebration of connection, crafted with passion
-                            and inspired by diverse flavors. Join us in an inviting space where every
-                            bite sparks joy and every moment becomes a cherished memory.
-                        </p>
-
-
-                        <div class="list mt-4">
-                            <p><i class="bi bi-check-circle-fill"></i> Seasonal & Locally Sourced Ingredients</p>
-                            <p><i class="bi bi-check-circle-fill"></i> Vegetarian & Dietary-Friendly Options</p>
-                            <p><i class="bi bi-check-circle-fill"></i> Exquisite Pairings & Unique Flavors</p>
-                        </div>
-
-
-                        <div class="mt-4">
-                            <a class="btn btn-main text-dark">Order Now →</a>
-                            <a class="btn btn-light ms-2">Read More →</a>
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
-
-        <!--================premium dining section ==============-->
-        <section class="feature">
-            <div class="container">
-                <div class="row gy-4">
-
-
-                    <!-- 1 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="f-card">
-                            <div class="f-icon">
-                                <i class="bi bi-egg-fried"></i>
-                            </div>
-
-                            <div>
-                                <div class="f-title">Premium Dining</div>
-                                <div class="f-text">
-                                    It's very personal, and can only be
-                                    a positive experience.
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- 2 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="f-card">
-
-                            <div class="f-icon">
-                                <i class="bi bi-cup-hot"></i>
-                            </div>
-
-                            <div>
-                                <div class="f-title">Abundant Flavors</div>
-                                <div class="f-text">
-                                    At secret recipe, we take immense
-                                    pride in crafting.
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- 3 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="f-card">
-
-                            <div class="f-icon">
-                                <i class="bi bi-basket2"></i>
-                            </div>
-
-                            <div>
-                                <div class="f-title">Indigenous Meal</div>
-                                <div class="f-text">
-                                    With local ingredients, unique spins
-                                    on traditional flavors.
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
-        </section>
-
-        <!--==============OUR MAIN DISH ==============-->
-
-        <section class="dishes">
-            <img class="pizza-image1" src="./assets/img/pizza-img.png" alt="pizza-image">
-            <img class="chili-image2" src="./assets/img/chili-image.png" alt="pizza-image">
-            <div class="container">
-
-                <div class="sub">• OUR MAIN DISHES</div>
-
-                <h2 class="title">
-                    SATISFY YOUR CRAVINGS WITH <br>
-                    OUR <span>SIGNATURE MAINS</span>
-                </h2>
-
-
-                <div class="row gy-4">
-
-
-                    <!-- 1 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-card">
-
-                            <div class="d-img">
-                                <img src="./assets/img/dish/our-dish1.jpg">
-                            </div>
-
-                            <div class="d-title">Soups</div>
-
-                            <div class="d-text">
-                                Warm, comforting, and full of
-                                flavor, our soups are the perfect
-                                start to any meal.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- 2 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-card">
-
-                            <div class="d-img">
-                                <img src="./assets/img/dish/our-dish2.jpg">
-                            </div>
-
-                            <div class="d-title">Salads</div>
-
-                            <div class="d-text">
-                                Refreshing, vibrant, and full of fresh
-                                flavors, our salads are crafted to
-                                senses.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- 3 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-card">
-
-                            <div class="d-img">
-                                <img src="./assets/img/dish/our-dish3.jpg">
-                            </div>
-
-                            <div class="d-title">Main Dishes</div>
-
-                            <div class="d-text">
-                                Offering bold flavors and expertly
-                                crafted recipes that cater to every
-                                taste.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- 4 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-card">
-
-                            <div class="d-img">
-                                <img src="./assets/img/dish/our-dish4.jpg">
-                            </div>
-
-                            <div class="d-title">Appetizers</div>
-
-                            <div class="d-text">
-                                Our appetizers are the perfect way
-                                to begin your dining experience
-                                flavors.
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-                <div class="view">
-                    Hungry for Something Delicious?
-                    <a href="#">View All Dishes!</a>
-                </div>
-
-
-            </div>
-        </section>
-
-
-        <!--====================== main menu section ==================-->
-
-        <section class="menu">
-            <div class="container">
-
-                <div class="sub text-center">• FROM OUR MENU</div>
-
-                <h2 class="title text-center">
-                    AN INSPIRED MENU THAT <br>
-                    BLENDS TRADITION
-                </h2>
-
-
-
-                <!-- ===== TABS ===== -->
-                <ul class="nav nav-pills justify-content-center mb-5">
-
-                    <li class="nav-item">
-                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#app">
-                            Appetizers
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#main">
-                            Main Courses
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#side">
-                            Sides
-                        </button>
-                    </li>
-
-                    <li class="nav-item">
-                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#des">
-                            Desserts
-                        </button>
-                    </li>
-
-                </ul>
-
-
-
-
-                <!-- ===== TAB CONTENT ===== -->
-                <div class="tab-content">
-
-
-                    <!-- ================= APPETIZERS ================= -->
-                    <div class="tab-pane fade show active" id="app">
-
-                        <div class="row g-4">
-
-
-                            <!-- 1 -->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-1.png">
-                                    </div>
-
-                                    <div>
-                                        <b>CHIPS & DIP</b>
-                                        <span class="price ms-2">$16.00</span>
-
-                                        <p class="text-white">
-                                            A perfect pairing of crispy chips and rich dips.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <!-- 2 -->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-2.png">
-                                    </div>
-
-                                    <div>
-                                        <b>GARLIC FRIES</b>
-                                        <span class="price ms-2">$26.00</span>
-
-                                        <p class="text-white">
-                                            Freshly made crispy garlic fries.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-
-                            <!-- 3 -->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-3.png">
-                                    </div>
-
-                                    <div>
-                                        <b>VEG ROLLS</b>
-                                        <span class="price ms-2">$18.00</span>
-
-                                        <p class="text-white">
-                                            Crispy rolls with fresh veggies.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-
-                            <!-- 4 -->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-4.png">
-                                    </div>
-
-                                    <div>
-                                        <b>SPRING BITES</b>
-                                        <span class="price ms-2">$15.00</span>
-
-                                        <p class="text-white">
-                                            Light and tasty spring bites.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!-- 5-->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-5.png">
-                                    </div>
-
-                                    <div>
-                                        <b>SPRING BITES</b>
-                                        <span class="price ms-2">$15.00</span>
-
-                                        <p class="text-white">
-                                            Light and tasty spring bites.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!-- 6 -->
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-6.png">
-                                    </div>
-
-                                    <div>
-                                        <b>SPRING BITES</b>
-                                        <span class="price ms-2">$15.00</span>
-
-                                        <p class="text-white">
-                                            Light and tasty spring bites.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-
-
-
-                    <!-- ================= MAIN ================= -->
-                    <div class="tab-pane fade" id="main">
-
-                        <div class="row g-4">
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-4.png">
-                                    </div>
-
-                                    <div>
-                                        <b>THAI CURRY</b>
-                                        <span class="price ms-2">$22.00</span>
-
-                                        <p class="text-white">
-                                            Authentic spicy thai curry.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-5.png">
-                                    </div>
-
-                                    <div>
-                                        <b>SPRING BITES</b>
-                                        <span class="price ms-2">$15.00</span>
-
-                                        <p class="text-white">
-                                            Light and tasty spring bites.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-6.png">
-                                    </div>
-
-                                    <div>
-                                        <b>SPRING BITES</b>
-                                        <span class="price ms-2">$15.00</span>
-
-                                        <p class="text-white">
-                                            Light and tasty spring bites.
-                                        </p>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-
-                    <!-- ================= SIDES ================= -->
-                    <div class="tab-pane fade" id="side">
-
-                        <div class="row g-4">
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-6.png">
-                                    </div>
-
-                                    <div>
-                                        <b>KALE SALAD</b>
-                                        <span class="price ms-2">$10.00</span>
-
-                                        <p class="text-white">
-                                            Healthy fresh salad.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-
-                    <!-- ================= DESSERT ================= -->
-                    <div class="tab-pane fade" id="des">
-
-                        <div class="row g-4">
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-5.png">
-                                    </div>
-
-                                    <div>
-                                        <b>CHOCO CAKE</b>
-                                        <span class="price ms-2">$12.00</span>
-
-                                        <p class="text-white">
-                                            Sweet chocolate cake.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-12">
-                                <div class="item">
-                                    <div class="item-img">
-                                        <img src="./assets/img/menu/our-menu-image-5.png">
-                                    </div>
-
-                                    <div>
-                                        <b>CHOCO CAKE</b>
-                                        <span class="price ms-2">$12.00</span>
-
-                                        <p class="text-white">
-                                            Sweet chocolate cake.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-
-                <div class="text-center mt-4 text-white">
-                    Ready to Savor the Best?
-                    <a href="#" class="text-warning">Check Our Dishes!</a>
-                </div>
-
-
-
-            </div>
-        </section>
-
-        <!--==================== OFFER SECTION ============-->
-        <section class="video-sec">
-
-            <!-- ===== VIDEO ===== -->
-            <video autoplay muted loop playsinline class="bg-video">
-                <source src="./assets/img/restaurentcollab.mp4" type="video/mp4">
-            </video>
-
-
-            <!-- ===== OVERLAY CONTENT ===== -->
-            <div class="video-content">
-
-                <h2>
-                    We Offer You / Te Ofrecemos
-                </h2>
-
-                <h3>
-                    Tacos • Tortas • Sopas <br> Much More
-                </h3>
-
+      <!--================== HERO SECTION =================-->
+
+      <section class="hero">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- LEFT TEXT -->
+            <div class="col-lg-6">
+              <div class="hero-sub">ART OF FINE DINING</div>
+
+              <h1 class="hero-title">
+                DINING REDEFINED <br />
+                WITH <span>EVERY BITE</span>
+              </h1>
+
+              <p class="hero-text">
+                Immerse yourself in a dining experience like no other, where
+                every dish is a masterpiece of flavor, crafted with care and
+                precision from the freshest ingredients.
+              </p>
+
+              <a href="#" class="btn btn-main">Book A Table →</a>
+              <a href="#" class="btn btn-outline">Explore Now</a>
             </div>
 
-        </section>
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <div class="circle-wrapper">
+                <div class="big-circle">
+                  <img src="./assets/img/hero-img.jpg" />
+                </div>
 
+                <div class="float float1">
+                  <img src="./assets/img/hero-circle1.jpg" />
+                </div>
 
-        <!--==============our ingrediants ================-->
+                <div class="float float2">
+                  <img src="./assets/img/hero-circle2.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section class="ingredients">
-    <div class="container">
-        <div class="row align-items-center gy-5">
+      <!--=================ABOUT US SECTION ====================-->
 
+      <section class="about">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <!-- LEFT -->
+            <div class="col-lg-6">
+              <div class="position-relative">
+                <div class="circle-img">
+                  <img src="./assets/img/about-us-image.JPG" />
+                </div>
+
+                <div class="exp-badge text-white">
+                  <i class="bi bi-star"></i>
+                  <h6 class="mt-2">30+ years of experience</h6>
+                </div>
+
+                <div class="chef">
+                  <img src="./assets/img/aboutUs-img.png" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="col-lg-6">
+              <div class="sub">• ABOUT US</div>
+
+              <h2 class="title mt-2">
+                OUR COMMITMENT TO <br />
+                AUTHENTICITY & <span>EXCELLENCE</span>
+              </h2>
+
+              <p class="text-white mt-3">
+                Every dish we create is a celebration of connection, crafted
+                with passion and inspired by diverse flavors. Join us in an
+                inviting space where every bite sparks joy and every moment
+                becomes a cherished memory.
+              </p>
+
+              <div class="list mt-4">
+                <p>
+                  <i class="bi bi-check-circle-fill"></i> Seasonal & Locally
+                  Sourced Ingredients
+                </p>
+                <p>
+                  <i class="bi bi-check-circle-fill"></i> Vegetarian &
+                  Dietary-Friendly Options
+                </p>
+                <p>
+                  <i class="bi bi-check-circle-fill"></i> Exquisite Pairings &
+                  Unique Flavors
+                </p>
+              </div>
+
+              <div class="mt-4">
+                <a class="btn btn-main text-dark">Order Now →</a>
+                <a class="btn btn-light ms-2">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================premium dining section ==============-->
+      <section class="feature">
+        <div class="container">
+          <div class="row gy-4">
+            <!-- 1 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="f-card">
+                <div class="f-icon">
+                  <i class="bi bi-egg-fried"></i>
+                </div>
+
+                <div>
+                  <div class="f-title">Premium Dining</div>
+                  <div class="f-text">
+                    It's very personal, and can only be a positive experience.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="f-card">
+                <div class="f-icon">
+                  <i class="bi bi-cup-hot"></i>
+                </div>
+
+                <div>
+                  <div class="f-title">Abundant Flavors</div>
+                  <div class="f-text">
+                    At secret recipe, we take immense pride in crafting.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-lg-4 col-md-6">
+              <div class="f-card">
+                <div class="f-icon">
+                  <i class="bi bi-basket2"></i>
+                </div>
+
+                <div>
+                  <div class="f-title">Indigenous Meal</div>
+                  <div class="f-text">
+                    With local ingredients, unique spins on traditional flavors.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==============OUR MAIN DISH ==============-->
+
+      <section class="dishes">
+        <img
+          class="pizza-image1"
+          src="./assets/img/pizza-img.png"
+          alt="pizza-image"
+        />
+        <img
+          class="chili-image2"
+          src="./assets/img/chili-image.png"
+          alt="pizza-image"
+        />
+        <div class="container">
+          <div class="sub">• OUR MAIN DISHES</div>
+
+          <h2 class="title">
+            SATISFY YOUR CRAVINGS WITH <br />
+            OUR <span>SIGNATURE MAINS</span>
+          </h2>
+
+          <div class="row gy-4">
+            <!-- 1 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="d-card">
+                <div class="d-img">
+                  <img src="./assets/img/dish/our-dish1.jpg" />
+                </div>
+
+                <div class="d-title">Soups</div>
+
+                <div class="d-text">
+                  Warm, comforting, and full of flavor, our soups are the
+                  perfect start to any meal.
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="d-card">
+                <div class="d-img">
+                  <img src="./assets/img/dish/our-dish2.jpg" />
+                </div>
+
+                <div class="d-title">Salads</div>
+
+                <div class="d-text">
+                  Refreshing, vibrant, and full of fresh flavors, our salads are
+                  crafted to senses.
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="d-card">
+                <div class="d-img">
+                  <img src="./assets/img/dish/our-dish3.jpg" />
+                </div>
+
+                <div class="d-title">Main Dishes</div>
+
+                <div class="d-text">
+                  Offering bold flavors and expertly crafted recipes that cater
+                  to every taste.
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="d-card">
+                <div class="d-img">
+                  <img src="./assets/img/dish/our-dish4.jpg" />
+                </div>
+
+                <div class="d-title">Appetizers</div>
+
+                <div class="d-text">
+                  Our appetizers are the perfect way to begin your dining
+                  experience flavors.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="view">
+            Hungry for Something Delicious?
+            <a href="#">View All Dishes!</a>
+          </div>
+        </div>
+      </section>
+
+      <!--====================== main menu section ==================-->
+
+      <section class="menu">
+        <div class="container">
+          <div class="sub text-center">• FROM OUR MENU</div>
+
+          <h2 class="title text-center">
+            AN INSPIRED MENU THAT <br />
+            BLENDS TRADITION
+          </h2>
+
+          <!-- ===== TABS ===== -->
+          <ul class="nav nav-pills justify-content-center mb-5">
+            <li class="nav-item">
+              <button
+                class="nav-link active"
+                data-bs-toggle="pill"
+                data-bs-target="#app"
+              >
+                Appetizers
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#main"
+              >
+                Main Courses
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#side"
+              >
+                Sides
+              </button>
+            </li>
+
+            <li class="nav-item">
+              <button
+                class="nav-link"
+                data-bs-toggle="pill"
+                data-bs-target="#des"
+              >
+                Desserts
+              </button>
+            </li>
+          </ul>
+
+          <!-- ===== TAB CONTENT ===== -->
+          <div class="tab-content">
+            <!-- ================= APPETIZERS ================= -->
+            <div class="tab-pane fade show active" id="app">
+              <div class="row g-4">
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-1.png" />
+                    </div>
+
+                    <div>
+                      <b>CHIPS & DIP</b>
+                      <span class="price ms-2">$16.00</span>
+
+                      <p class="text-white">
+                        A perfect pairing of crispy chips and rich dips.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-2.png" />
+                    </div>
+
+                    <div>
+                      <b>GARLIC FRIES</b>
+                      <span class="price ms-2">$26.00</span>
+
+                      <p class="text-white">
+                        Freshly made crispy garlic fries.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-3.png" />
+                    </div>
+
+                    <div>
+                      <b>VEG ROLLS</b>
+                      <span class="price ms-2">$18.00</span>
+
+                      <p class="text-white">Crispy rolls with fresh veggies.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-4.png" />
+                    </div>
+
+                    <div>
+                      <b>SPRING BITES</b>
+                      <span class="price ms-2">$15.00</span>
+
+                      <p class="text-white">Light and tasty spring bites.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5-->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-5.png" />
+                    </div>
+
+                    <div>
+                      <b>SPRING BITES</b>
+                      <span class="price ms-2">$15.00</span>
+
+                      <p class="text-white">Light and tasty spring bites.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-6.png" />
+                    </div>
+
+                    <div>
+                      <b>SPRING BITES</b>
+                      <span class="price ms-2">$15.00</span>
+
+                      <p class="text-white">Light and tasty spring bites.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= MAIN ================= -->
+            <div class="tab-pane fade" id="main">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-4.png" />
+                    </div>
+
+                    <div>
+                      <b>THAI CURRY</b>
+                      <span class="price ms-2">$22.00</span>
+
+                      <p class="text-white">Authentic spicy thai curry.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-5.png" />
+                    </div>
+
+                    <div>
+                      <b>SPRING BITES</b>
+                      <span class="price ms-2">$15.00</span>
+
+                      <p class="text-white">Light and tasty spring bites.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-6.png" />
+                    </div>
+
+                    <div>
+                      <b>SPRING BITES</b>
+                      <span class="price ms-2">$15.00</span>
+
+                      <p class="text-white">Light and tasty spring bites.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= SIDES ================= -->
+            <div class="tab-pane fade" id="side">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-6.png" />
+                    </div>
+
+                    <div>
+                      <b>KALE SALAD</b>
+                      <span class="price ms-2">$10.00</span>
+
+                      <p class="text-white">Healthy fresh salad.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ================= DESSERT ================= -->
+            <div class="tab-pane fade" id="des">
+              <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-5.png" />
+                    </div>
+
+                    <div>
+                      <b>CHOCO CAKE</b>
+                      <span class="price ms-2">$12.00</span>
+
+                      <p class="text-white">Sweet chocolate cake.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12">
+                  <div class="item">
+                    <div class="item-img">
+                      <img src="./assets/img/menu/our-menu-image-5.png" />
+                    </div>
+
+                    <div>
+                      <b>CHOCO CAKE</b>
+                      <span class="price ms-2">$12.00</span>
+
+                      <p class="text-white">Sweet chocolate cake.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4 text-white">
+            Ready to Savor the Best?
+            <a href="#" class="text-warning">Check Our Dishes!</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== OFFER SECTION ============-->
+      <section class="video-sec">
+        <!-- ===== VIDEO ===== -->
+        <video autoplay muted loop playsinline class="bg-video">
+          <source src="./assets/img/restaurentcollab.mp4" type="video/mp4" />
+        </video>
+
+        <!-- ===== OVERLAY CONTENT ===== -->
+        <div class="video-content">
+          <h2>We Offer You / Te Ofrecemos</h2>
+
+          <h3>
+            Tacos • Tortas • Sopas <br />
+            Much More
+          </h3>
+        </div>
+      </section>
+
+      <!--==============our ingrediants ================-->
+
+      <section class="ingredients">
+        <div class="container">
+          <div class="row align-items-center gy-5">
             <!-- ===== LEFT ===== -->
             <div class="col-lg-6 position-relative">
+              <div class="chef-img">
+                <img
+                  src="./assets/img/our-ingredients-image.png"
+                  class="img-fluid"
+                />
+              </div>
 
-                <div class="chef-img">
-                    <img src="./assets/img/our-ingredients-image.png" class="img-fluid">
+              <!-- BADGE -->
+              <div class="badge-box">
+                <h5>620+ Exclusive</h5>
+                <p>Happy Customer</p>
+
+                <div class="d-flex mt-2">
+                  <img src="./assets/img/happy-customer-img-1.jpg" class="u" />
+                  <img src="./assets/img/happy-customer-img-3.jpg" class="u" />
+                  <img src="./assets/img/happy-customer-img-3.jpg" class="u" />
+                  <div class="u plus text-dark fs-5">+</div>
                 </div>
-
-                <!-- BADGE -->
-                <div class="badge-box">
-                    <h5>620+ Exclusive</h5>
-                    <p>Happy Customer</p>
-
-                    <div class="d-flex mt-2">
-                        <img src="./assets/img/happy-customer-img-1.jpg" class="u">
-                        <img src="./assets/img/happy-customer-img-3.jpg" class="u">
-                        <img src="./assets/img/happy-customer-img-3.jpg" class="u">
-                        <div class="u plus text-dark fs-5">+</div>
-                    </div>
-
-                </div>
-
+              </div>
             </div>
 
             <!-- ===== RIGHT ===== -->
             <div class="col-lg-6">
+              <div class="ingredient-sub">• OUR INGREDIENTS</div>
 
-                <div class="ingredient-sub">• OUR INGREDIENTS</div>
+              <h2 class="ingrediants-title">
+                CRAFTING DISHES WITH <br />
+                <span>FRESHEST FLAVORS</span>
+              </h2>
 
-                <h2 class="ingrediants-title">
-                    CRAFTING DISHES WITH <br>
-                    <span>FRESHEST FLAVORS</span>
-                </h2>
+              <p class="text-white">
+                We take pride in using only the freshest, hand-picked
+                ingredients that are free from preservatives and artificial
+                additives.
+              </p>
 
-                <p class="text-white">
-                    We take pride in using only the freshest, hand-picked ingredients
-                    that are free from preservatives and artificial additives.
+              <div class="row mt-4 gy-4">
+                <div class="col-md-4 col-6">
+                  <i class="bi bi-cup-hot f-icon"></i>
+                  <div class="f-title">Best Qualities</div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                  <i class="bi bi-gift f-icon"></i>
+                  <div class="f-title">Discount System</div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                  <i class="bi bi-truck f-icon"></i>
+                  <div class="f-title">First Delivery</div>
+                </div>
+              </div>
+
+              <a class="btn btn-main mt-4">Book Table →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=================== OUR TESTIMONIALS ===============-->
+
+      <section class="testimonial">
+        <div class="overlay"></div>
+
+        <div class="container position-relative">
+          <div class="sub text-center">• OUR TESTIMONIALS</div>
+
+          <h2 class="title text-center">
+            REAL STORIES OF MEMORABLE <br />
+            <span>MEALS AND EXPERIENCES</span>
+          </h2>
+
+          <!-- SWIPER -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- SLIDE 1 -->
+              <div class="swiper-slide">
+                <div class="quote">❝</div>
+
+                <p class="text">
+                  From the moment we walked in, the ambiance was welcoming, and
+                  the service was top-notch. The dish was absolutely delicious,
+                  full of fresh flavors and perfectly cooked.
                 </p>
 
-                <div class="row mt-4 gy-4">
-
-                    <div class="col-md-4 col-6 ">
-                        <i class="bi bi-cup-hot f-icon"></i>
-                        <div class="f-title">Best Qualities</div>
-                    </div>
-
-                    <div class="col-md-4 col-6 ">
-                        <i class="bi bi-gift f-icon"></i>
-                        <div class="f-title">Discount System</div>
-                    </div>
-
-                    <div class="col-md-4 col-6 ">
-                        <i class="bi bi-truck f-icon"></i>
-                        <div class="f-title">First Delivery</div>
-                    </div>
-
+                <div class="author">
+                  <img src="./assets/img/happy-customer-img-1.jpg" />
+                  <div>
+                    <h6>Liya Allen</h6>
+                    <span>Manager</span>
+                  </div>
                 </div>
+              </div>
 
-                <a class="btn btn-main mt-4">Book Table →</a>
+              <!-- SLIDE 2 -->
+              <div class="swiper-slide">
+                <div class="quote">❝</div>
 
+                <p class="text">
+                  Amazing food and great atmosphere. The staff explained every
+                  dish and suggested perfect pairings for our meal.
+                </p>
+
+                <div class="author">
+                  <img src="./assets/img/happy-customer-img-1.jpg" />
+                  <div>
+                    <h6>John Smith</h6>
+                    <span>Customer</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- SLIDE 3 -->
+              <div class="swiper-slide">
+                <div class="quote">❝</div>
+
+                <p class="text">
+                  Best restaurant in town! Fresh ingredients and authentic
+                  taste. We will definitely come back again.
+                </p>
+
+                <div class="author">
+                  <img src="./assets/img/happy-customer-img-3.jpg" />
+                  <div>
+                    <h6>Maria Gomez</h6>
+                    <span>Food Blogger</span>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <!-- NAV -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
+      <section class="faq">
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <!-- ===== LEFT FAQ ===== -->
+            <div class="col-lg-6">
+              <div class="badge">FAQS</div>
 
-        <!--=================== OUR TESTIMONIALS ===============-->
+              <h2 class="title">
+                Frequently Asked <br />
+                Questions
+              </h2>
 
-        <section class="testimonial">
+              <p class="text-white">
+                Everything you need to know about our coffee, café, and ordering
+                process.
+              </p>
 
-            <div class="overlay"></div>
+              <!-- ACCORDION -->
+              <div class="accordion mt-4" id="faq">
+                <!-- 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#f1"
+                    >
+                      Do you accept reservations?
+                    </button>
+                  </h2>
 
-            <div class="container position-relative">
-
-                <div class="sub text-center">• OUR TESTIMONIALS</div>
-
-                <h2 class="title text-center">
-                    REAL STORIES OF MEMORABLE <br>
-                    <span>MEALS AND EXPERIENCES</span>
-                </h2>
-
-
-                <!-- SWIPER -->
-                <div class="swiper mySwiper">
-
-                    <div class="swiper-wrapper">
-
-
-                        <!-- SLIDE 1 -->
-                        <div class="swiper-slide">
-
-                            <div class="quote">❝</div>
-
-                            <p class="text">
-                                From the moment we walked in, the ambiance was welcoming,
-                                and the service was top-notch. The dish was absolutely delicious,
-                                full of fresh flavors and perfectly cooked.
-                            </p>
-
-                            <div class="author">
-                                <img src="./assets/img/happy-customer-img-1.jpg">
-                                <div>
-                                    <h6>Liya Allen</h6>
-                                    <span>Manager</span>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- SLIDE 2 -->
-                        <div class="swiper-slide">
-
-                            <div class="quote">❝</div>
-
-                            <p class="text">
-                                Amazing food and great atmosphere. The staff explained
-                                every dish and suggested perfect pairings for our meal.
-                            </p>
-
-                            <div class="author">
-                                <img src="./assets/img/happy-customer-img-1.jpg">
-                                <div>
-                                    <h6>John Smith</h6>
-                                    <span>Customer</span>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <!-- SLIDE 3 -->
-                        <div class="swiper-slide">
-
-                            <div class="quote">❝</div>
-
-                            <p class="text">
-                                Best restaurant in town! Fresh ingredients and authentic taste.
-                                We will definitely come back again.
-                            </p>
-
-                            <div class="author">
-                                <img src="./assets/img/happy-customer-img-3.jpg">
-                                <div>
-                                    <h6>Maria Gomez</h6>
-                                    <span>Food Blogger</span>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
+                  <div
+                    id="f1"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faq"
+                  >
+                    <div class="accordion-body">
+                      Yes, we accept reservations through our website and by
+                      phone. We recommend booking in advance, especially on
+                      weekends and holidays.
                     </div>
-
-
-                    <!-- NAV -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-
+                  </div>
                 </div>
 
-            </div>
-        </section>
+                <!-- 2 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#f2"
+                    >
+                      What are your opening hours?
+                    </button>
+                  </h2>
 
-
-        <section class="faq">
-            <div class="container">
-                <div class="row align-items-center gy-5">
-
-
-                    <!-- ===== LEFT FAQ ===== -->
-                    <div class="col-lg-6">
-
-                        <div class="badge">FAQS</div>
-
-                        <h2 class="title">
-                            Frequently Asked <br> Questions
-                        </h2>
-
-                        <p class="text-white">
-                            Everything you need to know about our coffee, café,
-                            and ordering process.
-                        </p>
-
-
-                        <!-- ACCORDION -->
-                        <div class="accordion mt-4" id="faq">
-
-
-                            <!-- 1 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#f1">
-                                        Do you accept reservations?
-                                    </button>
-                                </h2>
-
-                                <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq">
-                                    <div class="accordion-body">
-                                        Yes, we accept reservations through our website and by phone. We recommend
-                                        booking in advance, especially on weekends and holidays.
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <!-- 2 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#f2">
-                                        What are your opening hours?
-                                    </button>
-                                </h2>
-
-                                <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq">
-                                    <div class="accordion-body">
-                                        We are open from 11:00 AM to 10:30 PM, Monday to Sunday. Kitchen closes 30
-                                        minutes before closing time.
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <!-- 3 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#f3">
-                                        Do you offer takeaway or delivery?
-                                    </button>
-                                </h2>
-
-                                <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faq">
-                                    <div class="accordion-body">
-                                        Yes, we offer both takeaway and home delivery through our website and partner
-                                        apps like UberEats, DoorDash, and Grubhub.
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <!-- 4 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#f4">
-                                        Do you have vegetarian or vegan options?
-                                    </button>
-                                </h2>
-
-                                <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faq">
-                                    <div class="accordion-body">
-                                        Absolutely! We have a wide range of vegetarian and vegan dishes clearly marked
-                                        on our menu.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- 5 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
-                                        data-bs-target="#f5">
-                                        Do you accommodate food allergies?
-                                    </button>
-                                </h2>
-
-                                <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faq">
-                                    <div class="accordion-body">
-                                        Yes. Please inform our staff about any allergies or dietary restrictions, and we
-                                        will do our best to accommodate your needs.
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
+                  <div
+                    id="f2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq"
+                  >
+                    <div class="accordion-body">
+                      We are open from 11:00 AM to 10:30 PM, Monday to Sunday.
+                      Kitchen closes 30 minutes before closing time.
                     </div>
-
-
-                    <!-- ===== RIGHT IMAGE ===== -->
-                    <div class="col-lg-6 text-center">
-
-                        <img src="./assets/img/faq-img.png" class="img-fluid faq-img">
-
-                    </div>
-
-
+                  </div>
                 </div>
+
+                <!-- 3 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#f3"
+                    >
+                      Do you offer takeaway or delivery?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="f3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq"
+                  >
+                    <div class="accordion-body">
+                      Yes, we offer both takeaway and home delivery through our
+                      website and partner apps like UberEats, DoorDash, and
+                      Grubhub.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#f4"
+                    >
+                      Do you have vegetarian or vegan options?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="f4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq"
+                  >
+                    <div class="accordion-body">
+                      Absolutely! We have a wide range of vegetarian and vegan
+                      dishes clearly marked on our menu.
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#f5"
+                    >
+                      Do you accommodate food allergies?
+                    </button>
+                  </h2>
+
+                  <div
+                    id="f5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faq"
+                  >
+                    <div class="accordion-body">
+                      Yes. Please inform our staff about any allergies or
+                      dietary restrictions, and we will do our best to
+                      accommodate your needs.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
 
-
-
-
+            <!-- ===== RIGHT VIDEO ===== -->
+            <div class="col-lg-6 text-center">
+              <video
+                src="./assets/img/video.mp4"
+                class="img-fluid faq-img"
+                autoplay
+                loop
+                muted
+                playsinline
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--=================== footer section ===================-->
 
     <footer class="footer">
-        <div class="container">
-            <div class="row gy-4">
-
-                <!-- LOGO -->
-                <div class="col-lg-3">
-                    <div class="footer-logo">
-                        <img src="./assets/img/logo.png" alt="logo">
-                    </div>
-                </div>
-
-
-                <!-- SOCIAL -->
-                <div class="col-lg-3">
-                    <div class="footer-title">
-                        REDES SOCIALES / SOCIAL MEDIA
-                    </div>
-
-                    <div class="social-box d-flex">
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-tiktok"></i></a>
-                    </div>
-
-                    <div class="footer-title mt-4">
-                        ORDENA AHORA / ORDER NOW
-                    </div>
-
-                    <div class="order-apps">
-                        <img src="ubereats.png">
-                        <img src="grubhub.png">
-                        <img src="doordash.png">
-                        <img src="postmates.png">
-                    </div>
-                </div>
-
-
-                <!-- CONTACT -->
-                <div class="col-lg-3">
-                    <div class="footer-title">CONTACT</div>
-
-                    <p>Email</p>
-                    <p>info@elcompadrerestaurante.com</p>
-
-                    <p class="mt-3">Location / Dirección</p>
-                    <p>
-                        8440 Sunland Blvd,<br>
-                        Sun Valley, CA 91352
-                    </p>
-                </div>
-
-
-                <!-- CALL -->
-                <div class="col-lg-3">
-                    <div class="footer-title">
-                        CALL US / LLÁMENOS
-                    </div>
-
-                    <div class="call">
-                        (818) 760-1095
-                    </div>
-                </div>
-
-
+      <div class="container">
+        <div class="row gy-4">
+          <!-- LOGO -->
+          <div class="col-lg-3">
+            <div class="footer-logo">
+              <img src="./assets/img/logo.png" alt="logo" />
             </div>
-        </div>
-    </footer>
+          </div>
 
+          <!-- SOCIAL -->
+          <div class="col-lg-3">
+            <div class="footer-title">REDES SOCIALES / SOCIAL MEDIA</div>
+
+            <div class="social-box d-flex">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-tiktok"></i></a>
+            </div>
+
+            <div class="footer-title mt-4">ORDENA AHORA / ORDER NOW</div>
+
+            <div class="order-apps">
+              <img src="ubereats.png" />
+              <img src="grubhub.png" />
+              <img src="doordash.png" />
+              <img src="postmates.png" />
+            </div>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="col-lg-3">
+            <div class="footer-title">CONTACT</div>
+
+            <p>Email</p>
+            <p>info@elcompadrerestaurante.com</p>
+
+            <p class="mt-3">Location / Dirección</p>
+            <p>
+              8440 Sunland Blvd,<br />
+              Sun Valley, CA 91352
+            </p>
+          </div>
+
+          <!-- CALL -->
+          <div class="col-lg-3">
+            <div class="footer-title">CALL US / LLÁMENOS</div>
+
+            <div class="call">(818) 760-1095</div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- swiper  js link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
-        var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+          delay: 4000,
+        },
 
-            loop: true,
-            autoplay: {
-                delay: 4000,
-            },
-
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-
-        });
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
     </script>
-
-
 
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
+      function filter(cat) {
+        // tab active
+        document
+          .querySelectorAll(".tabs span")
+          .forEach((t) => t.classList.remove("active"));
 
-        function filter(cat) {
+        event.target.classList.add("active");
 
-            // tab active
-            document.querySelectorAll('.tabs span')
-                .forEach(t => t.classList.remove('active'));
+        // show hide
+        document
+          .querySelectorAll(".box")
+          .forEach((b) => b.classList.add("hide"));
 
-            event.target.classList.add('active');
-
-
-            // show hide
-            document.querySelectorAll('.box')
-                .forEach(b => b.classList.add('hide'));
-
-            document.querySelectorAll('.' + cat)
-                .forEach(b => b.classList.remove('hide'));
-
-        }
-
+        document
+          .querySelectorAll("." + cat)
+          .forEach((b) => b.classList.remove("hide"));
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
