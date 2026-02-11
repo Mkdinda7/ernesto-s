@@ -101,7 +101,7 @@ a:hover {
 .navbar-nav .nav-link {
     text-decoration: none;
     position: relative;
-    background: linear-gradient(120deg, #1900ffbb 0%, #000000 100%);
+    background: linear-gradient(120deg, #1900ffbb 0%, #474444 100%);
     padding: 5px 15px !important;
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -376,6 +376,7 @@ a:hover {
 
 /* CHEF SMALL */
 .chef {
+   
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -534,6 +535,7 @@ a:hover {
 }
 
 .pizza-image1 {
+   
     position: absolute;
     left: -150px;
     bottom: -230px;
@@ -821,7 +823,7 @@ a:hover {
 
 
 
-/* ======================== OUR INGREDIANTS ======================= */
+/* ======================== OUR INGREDIENTS ======================= */
 
 .ingredients {
     background: #006f91 !important;
@@ -832,6 +834,9 @@ a:hover {
 /* IMAGE */
 .chef-img {
     max-width: 460px;
+    position: relative;
+    margin-left: 40px !important;
+    z-index: 1 !important; /* Image above badge */
 }
 
 /* BADGE */
@@ -843,6 +848,7 @@ a:hover {
     position: absolute;
     bottom: 10px;
     left: 10px;
+    z-index: 2 !important; /* Behind image */
 }
 
 .u {
@@ -872,7 +878,7 @@ a:hover {
     font-weight: 700;
 }
 
-.title span {
+.ingrediants-title span {
     color: #a9a686;
 }
 
@@ -880,12 +886,10 @@ a:hover {
 .f-icon {
     font-size: 28px;
     color: #a9a686;
-    margin: auto !important;
 }
 
 .f-title {
     margin-top: 6px;
-    margin-left: auto auto;
 }
 
 /* BUTTON */
@@ -893,13 +897,30 @@ a:hover {
     background: #a9a686;
     border-radius: 30px;
     padding: 10px 22px;
+    color: #000;
+    font-weight: 600;
 }
 
-/* MOBILE */
-@media(max-width:991px) {
-    .title {
-        font-size: 32px
+
+/* ================= MOBILE Z-INDEX FIX ================= */
+
+@media (max-width: 700px) {
+
+    .chef-img {
+       margin-left: 80px !important;
+        position: relative;
+        z-index: 3 !important; /* Make sure image is above */
     }
+
+    .badge-box {
+        position: absolute;
+        bottom: 0;
+         margin-left: 5px;
+        left: 0;
+        z-index: 1 !important; /* Behind image */
+        opacity: 0.9; /* optional nice effect */
+    }
+
 }
 
 
